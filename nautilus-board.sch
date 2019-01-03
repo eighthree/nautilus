@@ -3,7 +3,7 @@
 <eagle version="9.2.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -5495,6 +5495,128 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit2">
+<packages>
+<package name="NX8045">
+<wire x1="4" y1="-1.9172" x2="3.7172" y2="-2.2" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.7172" y1="-2.2" x2="-3.7172" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-3.7172" y1="-2.2" x2="-4" y2="-1.9172" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4" y1="-1.9172" x2="-4" y2="1.9764" width="0.127" layer="21"/>
+<wire x1="-4" y1="1.9764" x2="-3.7764" y2="2.2" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.7764" y1="2.2" x2="3.6838" y2="2.2" width="0.127" layer="21"/>
+<wire x1="3.6838" y1="2.2" x2="4" y2="1.8838" width="0.127" layer="21" curve="-90"/>
+<wire x1="4" y1="1.8838" x2="4" y2="-1.9172" width="0.127" layer="21"/>
+<wire x1="-3" y1="1.9" x2="3.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="3.1" y1="1.9" x2="3.5" y2="1.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.5" y1="1.4" x2="3.5" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-1.4" x2="3.1" y2="-1.8" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.1" y1="-1.8" x2="-3.1" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-1.8" x2="-3.5" y2="-1.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.5" y1="-1.4" x2="-3.5" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="1.4" x2="-3" y2="1.9" width="0.127" layer="21" curve="-90"/>
+<smd name="P$1" x="3.3" y="0" dx="3" dy="2.5" layer="1" rot="R90"/>
+<smd name="P$2" x="-3.2" y="0" dx="3" dy="2.5" layer="1" rot="R90"/>
+<text x="-2.7" y="2.8" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.2" y="-3.9" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="NX5032">
+<wire x1="2.5" y1="-1.2172" x2="2.2172" y2="-1.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.2172" y1="-1.6" x2="-2.2172" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2.2172" y1="-1.6" x2="-2.5" y2="-1.2172" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.5" y1="-1.2172" x2="-2.5" y2="1.3764" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.3764" x2="-2.2764" y2="1.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.2764" y1="1.6" x2="2.1838" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.1838" y1="1.6" x2="2.5" y2="1.2838" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.5" y1="1.2838" x2="2.5" y2="-1.2172" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="1.3" x2="1.4" y2="1.3" width="0.127" layer="21"/>
+<wire x1="1.4" y1="1.3" x2="2" y2="0.6" width="0.127" layer="21" curve="-89.967269"/>
+<wire x1="2" y1="0.6" x2="2" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="2" y1="-0.8" x2="1.4" y2="-1.3" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.4" y1="-1.3" x2="-1.3" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.3" x2="-2" y2="-0.7" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2" y1="-0.7" x2="-2" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-2" y1="0.7" x2="-1.4" y2="1.3" width="0.127" layer="21" curve="-90"/>
+<smd name="P$1" x="2" y="0" dx="2" dy="2.4" layer="1"/>
+<smd name="P$2" x="-2" y="0" dx="2" dy="2.4" layer="1" rot="R180"/>
+<text x="-2.6" y="1.9" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3" y="-3.1" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="XTAL3215">
+<wire x1="1.6" y1="-0.4172" x2="1.3172" y2="-0.7" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.3172" y1="-0.7" x2="-1.3172" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.3172" y1="-0.7" x2="-1.6" y2="-0.4172" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.6" y1="-0.4172" x2="-1.6" y2="0.4764" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.4764" x2="-1.3764" y2="0.7" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.3764" y1="0.7" x2="1.2838" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.2838" y1="0.7" x2="1.6" y2="0.3838" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.6" y1="0.3838" x2="1.6" y2="-0.4172" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0.4" x2="1" y2="0.4" width="0.127" layer="21"/>
+<wire x1="1" y1="0.4" x2="1.3" y2="0.1" width="0.127" layer="21" curve="-89.961816"/>
+<wire x1="1.3" y1="0.1" x2="1.3" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-0.1" x2="1" y2="-0.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="1" y1="-0.4" x2="-1" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.4" x2="-1.3" y2="-0.2" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.3" y1="-0.2" x2="-1.3" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="0.1" x2="-1.1" y2="0.4" width="0.127" layer="21" curve="-90.03821"/>
+<smd name="P$1" x="1.2" y="0" dx="1.1" dy="1.9" layer="1"/>
+<smd name="P$2" x="-1.2" y="0" dx="1.1" dy="1.9" layer="1" rot="R180"/>
+<text x="-2.3" y="-2.2" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.6" y="1.2" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="XTAL">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="3.81" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="XTAL" prefix="X" uservalue="yes">
+<description>Low cost SMT crystals, no capacitors included
+&lt;p&gt;http://www.ladyada.net/library/eagle&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="XTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NX8045" package="NX8045">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NX5032" package="NX5032">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3.2X1.5" package="XTAL3215">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5580,6 +5702,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="0.1uF"/>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$17" library="microbuilder" deviceset="GND" device=""/>
+<part name="Y2" library="adafruit2" deviceset="XTAL" device="-3.2X1.5" value="32.768"/>
+<part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="22pF"/>
+<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="22pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -5599,9 +5725,6 @@ battery in the JST PH connector
 and connect USB at the same time.</text>
 <text x="195.58" y="17.78" size="1.778" layer="94">RED LED</text>
 <text x="215.9" y="17.78" size="1.778" layer="94">RESET</text>
-<text x="63.5" y="96.52" size="1.778" layer="94">XTAL</text>
-<text x="71.12" y="91.44" size="1.27" layer="97" align="center">We'll use the internal 
-crystal connected to XC2, XC1</text>
 <text x="109.22" y="91.44" size="1.778" layer="94">MICRO USB</text>
 <text x="187.96" y="-40.64" size="1.778" layer="94">SPI Flash</text>
 <text x="-147.32" y="160.02" size="1.778" layer="94" align="bottom-center">POWER AND FILTERING
@@ -5614,6 +5737,7 @@ via D5 when both are present.</text>
 100mA: ~250/~40mV
 300mA: ~300/~125mV
 600mA: ~375/~260mV</text>
+<text x="2.54" y="88.9" size="1.778" layer="91">D3, A5</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="43.18" y="22.86" smashed="yes">
@@ -5868,6 +5992,21 @@ via D5 when both are present.</text>
 <instance part="U$5" gate="G$1" x="63.5" y="142.24" smashed="yes">
 <attribute name="VALUE" x="61.976" y="139.7" size="1.27" layer="96"/>
 </instance>
+<instance part="U$17" gate="G$1" x="91.44" y="119.38" smashed="yes" rot="R180">
+<attribute name="VALUE" x="92.964" y="121.92" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="Y2" gate="G$1" x="73.66" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.85" y="114.3" size="1.27" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="78.74" y="113.03" size="1.27" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="C2" gate="G$1" x="83.82" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.57" y="106.93" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
+<attribute name="VALUE" x="82.57" y="111.52" size="1.27" layer="96" font="vector" rot="R180" align="center"/>
+</instance>
+<instance part="C3" gate="G$1" x="83.82" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.57" y="122.17" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
+<attribute name="VALUE" x="82.57" y="126.76" size="1.27" layer="96" font="vector" rot="R180" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5996,6 +6135,18 @@ via D5 when both are present.</text>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="U$5" gate="G$1" pin="GND"/>
 <wire x1="63.5" y1="144.78" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$17" gate="G$1" pin="GND"/>
+<wire x1="91.44" y1="116.84" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="109.22" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="109.22" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="114.3" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="114.3" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
+<junction x="88.9" y="114.3"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VBUS" class="1">
@@ -6298,9 +6449,9 @@ via D5 when both are present.</text>
 <label x="139.7" y="-5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P0.00/XTAL1"/>
-<wire x1="53.34" y1="73.66" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
-<label x="53.34" y="99.06" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="P1.09"/>
+<wire x1="38.1" y1="73.66" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
+<label x="38.1" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -6487,11 +6638,6 @@ via D5 when both are present.</text>
 </net>
 <net name="VDIV" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="P0.01/XTAL2"/>
-<wire x1="48.26" y1="73.66" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
-<label x="48.26" y="88.9" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <wire x1="-68.58" y1="137.16" x2="-68.58" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="134.62" x2="-68.58" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="134.62" x2="-58.42" y2="134.62" width="0.1524" layer="91"/>
@@ -6499,6 +6645,11 @@ via D5 when both are present.</text>
 <label x="-66.04" y="134.62" size="1.778" layer="95"/>
 <pinref part="R12" gate="G$4" pin="2"/>
 <pinref part="R12" gate="G$3" pin="2"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P0.05/AIN3"/>
+<wire x1="43.18" y1="73.66" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
+<label x="43.18" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -6573,18 +6724,6 @@ via D5 when both are present.</text>
 <label x="-76.2" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="A5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P0.05/AIN3"/>
-<wire x1="43.18" y1="73.66" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
-<label x="43.18" y="88.9" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="MS1" gate="G$1" pin="GPIO13"/>
-<wire x1="-81.28" y1="-15.24" x2="-66.04" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-76.2" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="D1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P1.02"/>
@@ -6599,22 +6738,12 @@ via D5 when both are present.</text>
 </net>
 <net name="D2" class="0">
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIOA4"/>
-<wire x1="-124.46" y1="-17.78" x2="-132.08" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-129.54" y="-17.78" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="P0.07"/>
 <wire x1="-5.08" y1="-43.18" x2="-20.32" y2="-43.18" width="0.1524" layer="91"/>
 <label x="-17.78" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D3" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="P1.09"/>
-<wire x1="38.1" y1="73.66" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
-<label x="38.1" y="88.9" size="1.778" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIOA3"/>
 <wire x1="-124.46" y1="-15.24" x2="-132.08" y2="-15.24" width="0.1524" layer="91"/>
@@ -6661,6 +6790,30 @@ via D5 when both are present.</text>
 <junction x="-165.1" y="142.24"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="R12" gate="G$2" pin="2"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<wire x1="78.74" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="Y2" gate="G$1" pin="P$1"/>
+<wire x1="73.66" y1="109.22" x2="73.66" y2="111.76" width="0.1524" layer="91"/>
+<junction x="73.66" y="109.22"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="P0.00/XTAL1"/>
+<wire x1="53.34" y1="73.66" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="Y2" gate="G$1" pin="P$2"/>
+<wire x1="78.74" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="124.46" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
+<junction x="73.66" y="124.46"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="P0.01/XTAL2"/>
+<wire x1="48.26" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="124.46" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
