@@ -5725,6 +5725,9 @@ battery in the JST PH connector
 and connect USB at the same time.</text>
 <text x="195.58" y="17.78" size="1.778" layer="94">RED LED</text>
 <text x="215.9" y="17.78" size="1.778" layer="94">RESET</text>
+<text x="63.5" y="96.52" size="1.778" layer="94">XTAL</text>
+<text x="71.12" y="91.44" size="1.27" layer="97" align="center">We'll use the internal 
+crystal connected to XC2, XC1</text>
 <text x="109.22" y="91.44" size="1.778" layer="94">MICRO USB</text>
 <text x="187.96" y="-40.64" size="1.778" layer="94">SPI Flash</text>
 <text x="-147.32" y="160.02" size="1.778" layer="94" align="bottom-center">POWER AND FILTERING
@@ -6430,7 +6433,7 @@ via D5 when both are present.</text>
 <label x="86.36" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D4" class="0">
+<net name="P1.06" class="0">
 <segment>
 <pinref part="MS1" gate="G$1" pin="NC"/>
 <wire x1="-132.08" y1="-35.56" x2="-124.46" y2="-35.56" width="0.1524" layer="91"/>
@@ -6742,15 +6745,13 @@ via D5 when both are present.</text>
 <wire x1="-5.08" y1="-43.18" x2="-20.32" y2="-43.18" width="0.1524" layer="91"/>
 <label x="-17.78" y="-43.18" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="D3" class="0">
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIOA3"/>
-<wire x1="-124.46" y1="-15.24" x2="-132.08" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-129.54" y="-15.24" size="1.778" layer="95"/>
+<pinref part="MS1" gate="G$1" pin="GPIOA4"/>
+<wire x1="-124.46" y1="-17.78" x2="-132.08" y2="-17.78" width="0.1524" layer="91"/>
+<label x="-129.54" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D5" class="0">
+<net name="D4" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P0.06"/>
 <wire x1="-5.08" y1="-22.86" x2="-20.32" y2="-22.86" width="0.1524" layer="91"/>
@@ -6762,7 +6763,7 @@ via D5 when both are present.</text>
 <label x="-129.54" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D6" class="0">
+<net name="D5" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P0.26"/>
 <wire x1="-5.08" y1="-17.78" x2="-20.32" y2="-17.78" width="0.1524" layer="91"/>
